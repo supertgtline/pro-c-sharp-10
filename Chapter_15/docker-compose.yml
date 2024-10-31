@@ -1,0 +1,6 @@
+﻿services:
+  timerapptest:
+    image: timerapptest
+    build:
+      context: .
+      dockerfile: TimerAppTest/Dockerfile
